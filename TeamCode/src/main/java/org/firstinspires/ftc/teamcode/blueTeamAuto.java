@@ -59,6 +59,7 @@ public class blueTeamAuto extends LinearOpMode {
         encoderStrafe(STRAFE_SPEED, 120, 10.0); // Negative values are left
         encoderDrive(DRIVE_SPEED, 30, 30, 6.0);
         clawPosition(guide);
+        clawPosition(clawgrab);
 
         telemetry.addData("Path", "Complete");
         telemetry.update();
